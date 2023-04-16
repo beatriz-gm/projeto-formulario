@@ -1,0 +1,186 @@
+#page {
+  margin: 0 auto;
+}
+
+#title {
+  position: absolute;
+  left: 345px;
+}
+
+h1 {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-top: 140px;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  margin-top: 18px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  height: 436px;
+  left: 0px;
+  top: -2px;
+  background: #535971;
+  z-index: -1;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+form {
+  background: #FFFFFF;
+  border-radius: 20px 20px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 750px;
+  height: 1084px;
+  left: 345px;
+  top: 320px;
+  bottom: 50px;
+  padding: 64px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  color: #4E4958;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+span {
+  color: #C1BCCC;
+}
+
+span:hover {
+  color: #514a5f;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.input-wrapper input {
+  background: #FAFAFC;
+  border: 1px solid #E6E6F0;
+  border-radius: 8px;
+  height: 56px;
+}
+
+.input-wrapper-row {
+  display: flex;
+  gap: 22px;
+}
+
+.input-wrapper-row-2 {
+  display: flex;
+  margin-top: 8px;
+}
+
+.input-wrapper-row-time {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  margin-left: 32px;
+  
+}
+
+#legend-one, #legend-two, #legend-three {
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #535971;
+  border-bottom: 1px solid #E6E6F0;
+}
+
+#legend-one {
+  padding-bottom: 16px;
+}
+
+#legend-two, #legend-three {
+  padding-bottom: 8px;
+}
+
+#also-legend, #also-legend-2 {
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  line-height: 34px;
+  color: #535971;
+}
+
+#also-legend-2 {
+  margin-top: 16px;
+}
+
+#middle-div {
+  margin-top: 30px;
+  margin-bottom: 32px;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  width: 750px;
+  height: 160px;
+  left: 345px;
+  top: 1404px;
+  
+  background: #535971;
+  border-radius: 0px 0px 20px 20px;
+}
+
+footer .button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+
+  position: absolute;
+  width: 608px;
+  height: 55.65px;
+  margin: 50px 70px;
+  border: none;
+  
+  background: #FF5374;
+  border-radius: 20px;
+  
+  font-family: 'Staatliches', cursive;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+button:hover {
+  background: #aa374e;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
